@@ -1,0 +1,141 @@
+:root{
+    --text-color: rgb(239,185,128);
+    --background-color: red;
+    --accent-color: white;
+}
+
+body{
+    margin: 0;
+    font-family: Roboto Condensed;
+    background-image: url(/img/desert-2042738.jpg);
+    background-color: #cdcdd5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.img1{
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.img2{
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.img3{
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.Grand_Josun{
+    width: 250px;
+    height: 375px;
+}
+
+.Beach_Family{
+    width: 250px;
+    height: 375px;
+    padding-top: 50px;
+}
+
+.Landscape{
+    width: 250px;
+    height: 375px;
+    padding-top: 50px;
+}
+
+.Sain{
+    width: 250px;
+    height: 375px;
+}
+
+.Mountain_Temple{
+    width: 500px;
+    height: 333px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 12px 40px;
+}
+
+.navbar_logo{
+    font-size: 24px;
+}
+
+.navbar_icons{
+    color: white;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.navbar_icons li{
+    padding: 8px 12px;
+}
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar_menu li{
+    padding: 8px 12px;
+}
+.navbar_menu li:hover{
+    background-color: rgb(47, 113, 212);
+    border-radius: 4px;
+}
+
+.navbar_togglebutton{
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar_menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li{
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar_icons{
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar_togglebutton{
+        display: block;
+    }
+
+    .navbar_menu.active,
+    .navbar_icons.active{
+        display: flex;
+    }
+}
+
