@@ -34,7 +34,6 @@ a{
 .img3{
     float: left;
     padding-left: 50px;
-    padding-top: 50px;
 }
 
 .Grand_Josun{
@@ -52,6 +51,7 @@ a{
     width: 250px;
     height: 375px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .Sain{
@@ -59,9 +59,22 @@ a{
     height: 375px;
 }
 
-.Mountain_Temple{
-    width: 500px;
-    height: 333px;
+.double_kiwa{
+    width: 250px;
+    height: 375px;
+    padding-top: 50px;
+}
+
+.namu_kiwa{
+    width: 250px;
+    height: 375px;
+    padding-top: 50px;
+}
+
+.namu_sky{
+    width: 250px;
+    height: 375px;
+    padding-top: 50px;
 }
 
 .navbar{
